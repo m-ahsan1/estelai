@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/estelai/static/css/main.ecd38c9c.css",
-    "main.js": "/estelai/static/js/main.5c3f4de6.js",
+    "main.css": "/estelai/static/css/main.1d502c1c.css",
+    "main.js": "/estelai/static/js/main.1ed4a6b8.js",
     "static/media/bg1.mp4": "/estelai/static/media/bg1.c90ed0efc5bb99b7e533.mp4",
     "static/media/img2.jpg": "/estelai/static/media/img2.2dc8f0eec2d012f6b59a.jpg",
     "static/media/img3.jpg": "/estelai/static/media/img3.fd0713c12c7d514bc4ff.jpg",
     "static/media/img1.jpg": "/estelai/static/media/img1.512ef0162ce113f510b9.jpg",
     "index.html": "/estelai/index.html",
-    "main.ecd38c9c.css.map": "/estelai/static/css/main.ecd38c9c.css.map",
-    "main.5c3f4de6.js.map": "/estelai/static/js/main.5c3f4de6.js.map"
+    "main.1d502c1c.css.map": "/estelai/static/css/main.1d502c1c.css.map",
+    "main.1ed4a6b8.js.map": "/estelai/static/js/main.1ed4a6b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd38c9c.css",
-    "static/js/main.5c3f4de6.js"
+    "static/css/main.1d502c1c.css",
+    "static/js/main.1ed4a6b8.js"
   ]
 }
