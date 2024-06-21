@@ -26,7 +26,7 @@ const HeroSection = () => {
         <h1 className=" md:text-6xl lg:text-8xl font-bold text-[50px]">
           EstelAI
         </h1>
-        <p className="text-4xl mt-4">{text}</p>
+        <p className="text-4xl mt-4 font-mono">{text}</p>
         <p className="mt-6 max-w-md">
           Estelai is an AI agency based out Pakistan. Estel AI provides LLM
           powered web applications, AI automation services, and chatbots trained
