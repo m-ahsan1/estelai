@@ -67,21 +67,47 @@ const Navbar = () => {
         } absolute top-16 left-0 w-full bg-black bg-opacity-75 md:hidden`}
       >
         <div className="flex flex-col items-center space-y-4 py-4">
-          <Link to="/" className="text-white" onClick={toggleMenu}>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="text-white"
+            onClick={toggleMenu}
+          >
             Home
           </Link>
-          <Link to="/about" className="text-white" onClick={toggleMenu}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="text-white"
+            onClick={toggleMenu}
+          >
             About
           </Link>
-          <Link to="/contact" className="text-white" onClick={toggleMenu}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="text-white"
+            onClick={toggleMenu}
+          >
             Contact
           </Link>
-          <Link to="/services" className="text-white" onClick={toggleMenu}>
+          <Link
+            to="services"
+            smooth={true}
+            duration={500}
+            className="text-white"
+            onClick={toggleMenu}
+          >
             Services
           </Link>
-          <button className="bg-red-500 text-white px-4 py-2 rounded mt-2">
-            Book a meeting
-          </button>
+          <Link to="contact" smooth={true} duration={500}>
+            <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-transparent hover:border hover:border-red-500">
+              Book a meeting
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

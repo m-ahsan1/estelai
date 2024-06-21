@@ -5,7 +5,10 @@ import img3 from "../assets/img3.jpg";
 import { Link } from "react-scroll";
 const ServiceSection = () => {
   return (
-    <section name="services" className="bg-[#0a110b] p-8 h-screen w-full">
+    <section
+      name="services"
+      className="bg-[#0a110b] p-4 md:p-8 h-auto md:h-screen w-full"
+    >
       <div className="max-w-7xl mx-auto md:mt-20">
         {/* Header Section */}
         <div className="text-white mb-8">

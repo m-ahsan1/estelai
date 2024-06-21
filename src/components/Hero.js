@@ -17,8 +17,8 @@ const HeroSection = () => {
         <source src={bg} type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="absolute md:left-0 md:translate-x-1/2">
-        <h1 className="text-3xl md:text-6xl lg:text-8xl font-bold text-[150px]">
+      <div className="absolute md:left-0 md:translate-x-1/2 mx-5 md:mx-auto">
+        <h1 className="text-xl md:text-6xl lg:text-8xl font-bold text-[150px]">
           EstelAI
         </h1>
         <p className="text-4xl mt-4">AI-Powered Solutions.</p>
