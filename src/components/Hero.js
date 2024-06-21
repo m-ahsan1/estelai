@@ -1,8 +1,13 @@
 import bg from "../assets/bg1.mp4";
 import React from "react";
 import { Link } from "react-scroll";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const HeroSection = () => {
+  const [text] = useTypewriter({
+    words: ["AI-Powered Solutions."],
+  });
+
   return (
     <section
       name="home"
@@ -18,12 +23,12 @@ const HeroSection = () => {
       </video>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute md:left-0 md:translate-x-1/2 mx-5 md:mx-auto">
-        <h1 className="text-xl md:text-6xl lg:text-8xl font-bold text-[150px]">
+        <h1 className=" md:text-6xl lg:text-8xl font-bold text-[50px]">
           EstelAI
         </h1>
-        <p className="text-4xl mt-4">AI-Powered Solutions.</p>
+        <p className="text-4xl mt-4">{text}</p>
         <p className="mt-6 max-w-md">
-          Estelai is an AI agency based out Pakistan. Texagon provides LLM
+          Estelai is an AI agency based out Pakistan. Estel AI provides LLM
           powered web applications, AI automation services, and chatbots trained
           on custom data helping businesses grow their ROI, getting rid of
           manual systems, and reduce huge amounts of cost.
